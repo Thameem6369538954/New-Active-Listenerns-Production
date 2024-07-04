@@ -32,6 +32,7 @@ useEffect(() => {
   const fetchData = async () => {
     try {
       const response = await axios.get("admin/get_allVideos");
+      console.log(response.data.reslt, "array----------------------->>obj");
       console.log(response.data.reslt[2], "array----------------------->>obj"); // Log the second object in the response
       if (response) {
         // const videoData = response.data.reslt[1]; // Retrieve the video data
@@ -146,12 +147,7 @@ useEffect(() => {
                 Phones
               </h3>
             </div>
-            {/* <img
-              src={earlyAgeright2}
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              alt=""
-            /> */}
+
             {rows && (
               <video
                 controls // Ensure controls are enabled for user interaction
@@ -166,52 +162,26 @@ useEffect(() => {
               </video>
             )}
           </div>
-          <div className="hdr-btm-text">
-            {/* <p data-aos="zoom-in" data-aos-duration="1000">
-            We believe that early age gadget exposure, adaptaion to mobile among
-            children has now led to a time where there decrease in learning
-          </p> */}
-            {/* <button>Talk to us</button> */}
+        </div>
+        <div className="e-green-box">
+          <div className="e-green-box-text">
+            <h1>Impact of Adaption to</h1>
+            <p>Mobile Phones</p>
           </div>
 
-          {/* <div className="hdr-btm-text">
-          <p data-aos="zoom-in" data-aos-duration="1000">
-            We believe that early age gadget exposure, adaptaion to mobile among
-            children has now led to a time where there decrease in learning
-          </p>
-          <button>Why Active Listeners?</button>
-        </div> */}
-        </div>
-        <div className="green-bourd-Earlyage">
-          <div className="card-grif">
-            <div className="circle">
-              <img src={Roundb} alt="" />
-            </div>
-            <div className="circle-b">
-              <img src={Rounda} alt="" />
-            </div>
-
-            <div className="card-inneR">
-              <div className="card-inneR-text">
-                <h1>Impact of</h1>
-                <h1>Adaption of</h1>
-                <p>Mobile Phones</p>
-              </div>
-              {/* <img src={earlyAgeBoxImg} alt="" /> */}
-              {rows2 && (
-                <video
-                  controls // Ensure controls are enabled for user interaction
-                  className="Header-video-top"
-                  // onClick={togglePlay}
-                  // onPlay={() => setIsPlaying(true)}
-                  // onPause={() => setIsPlaying(false)}
-                >
-                  <source src={rows2} type="video/mp4" />
-                  {/* Make sure src and type are correctly set */}
-                  Your browser does not support the video tag.
-                </video>
-              )}
-            </div>
+          <div className="e-green-box-container">
+            {rows && (
+              <video
+                controls // Ensure controls are enabled for user interaction
+                className="erly-age-video"
+                // onPlay={() => setIsPlaying(true)}
+                // onPause={() => setIsPlaying(false)}
+              >
+                <source src={rows} type="video/mp4" />
+                {/* Make sure src and type are correctly set */}
+                Your browser does not support the video tag.
+              </video>
+            )}
           </div>
         </div>
         <div className="getyoukow-main-container">

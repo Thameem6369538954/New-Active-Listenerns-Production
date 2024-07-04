@@ -65,50 +65,50 @@ const AffiliateProgram = () => {
               <h1>Who can Join</h1>
               <p>A safe space to share experiences, connect with others.</p>
               <div className="psycologist-how-can-join-box-container-center">
-
-              <div className="psycologist-how-can-join-box-container">
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
+                <div className="psycologist-how-can-join-box-container">
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <Link to="/Psycologistform">
+                    <button
+                      style={{
+                        padding: "10px 20px",
+                        backgroundColor: "#FFDD7E",
+                        border: "none",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                      }}
+                      onClick={() => window.scrollTo(0, 0)}
+                    >
+                      Apply Here
+                    </button>
+                  </Link>
                 </div>
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
-                </div>
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
-                </div>
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
-                </div>
-                <Link to="/Psycologistform">
-                  <button
-                    style={{
-                      padding: "10px 20px",
-                      backgroundColor: "#FFDD7E",
-                      border: "none",
-                      borderRadius: "20px",
-                      fontSize: "14px",
-                    }}
-                  >
-                    Apply Here
-                  </button>
-                </Link>
-              </div>
               </div>
             </div>
           </div>
@@ -130,7 +130,6 @@ const AffiliateProgram = () => {
               <h1>Who can Join</h1>
               <p>A safe space to share experiences, connect with others.</p>
               <div className="clg-how-can-join-box-container">
-                
                 <div className="Clg-how-can-join-box">
                   {" "}
                   <img src={THands} alt="" />
@@ -172,6 +171,7 @@ const AffiliateProgram = () => {
                       borderRadius: "20px",
                       fontSize: "14px",
                     }}
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     Apply here
                   </button>
@@ -203,50 +203,50 @@ const AffiliateProgram = () => {
               <h1>Who can Join</h1>
               <p>A safe space to share experiences, connect with others.</p>
               <div className="psycologist-imsha">
-              <div className="psycologist-how-can-join-box-container">
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
+                <div className="psycologist-how-can-join-box-container">
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <div className="psycologist-how-can-join-box">
+                    <img src={THands} alt="" />
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Magni ducimus natus iure quos dolorum animi
+                    </p>
+                  </div>
+                  <Link to="/Ngoform">
+                    <button
+                      style={{
+                        padding: "10px 20px",
+                        backgroundColor: "#FFDD7E",
+                        border: "none",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                      }}
+                      onClick={() => window.scrollTo(0, 0)}
+                    >
+                      Apply Here
+                    </button>
+                  </Link>
                 </div>
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
-                </div>
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
-                </div>
-                <div className="psycologist-how-can-join-box">
-                  <img src={THands} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magni ducimus natus iure quos dolorum animi
-                  </p>
-                </div>
-                <Link to="/Ngoform">
-                  <button
-                    style={{
-                      padding: "10px 20px",
-                      backgroundColor: "#FFDD7E",
-                      border: "none",
-                      borderRadius: "20px",
-                      fontSize: "14px",
-                    }}
-                  >
-                    Apply Here
-                  </button>
-                </Link>
-              </div>
-
               </div>
             </div>
           </div>
@@ -328,7 +328,7 @@ const AffiliateProgram = () => {
         </div>
         <img src={FormA} alt="" />
       </div> */}
-    <GetinTouch />
+      <GetinTouch />
       <Footer />
     </div>
   );

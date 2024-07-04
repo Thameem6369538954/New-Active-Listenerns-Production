@@ -75,51 +75,25 @@ const CurrentTimes = () => {
               alt=""
             />
           </div>
-          <div className="hdr-btm-text">
-            {/* <p data-aos="zoom-in" data-aos-duration="1000">
-            We believe that early age gadget exposure, adaptaion to mobile among
-            children has now led to a time where there decrease in learning
-          </p> */}
-            {/* <button>Talk to us</button> */}
+          <div className="hdr-btm-text"></div>
+        </div>
+        <div className="e-green-box">
+          <div className="e-green-box-text">
+            <h1>Impact of Covid on </h1>
+            <p>Today’s Life</p>
           </div>
 
-          {/* <div className="hdr-btm-text">
-          <p data-aos="zoom-in" data-aos-duration="1000">
-            We believe that early age gadget exposure, adaptaion to mobile among
-            children has now led to a time where there decrease in learning
-          </p>
-          <button>Why Active Listeners?</button>
-        </div> */}
-        </div>
-        <div className="green-bourd-Earlyage">
-          <div className="card-grif">
-            <div className="circle">
-              <img src={Roundb} alt="" />
-            </div>
-            <div className="circle-b">
-              <img src={Rounda} alt="" />
-            </div>
-
-            <div className="card-inneR">
-              <div className="card-inneR-text">
-                <h1>Impact of</h1>
-                <h1>Covid on </h1>
-                <p>Today’s Life</p>
-              </div>
-              {rows && (
-                <video
-                  controls // Ensure controls are enabled for user interaction
-                  className="Header-video-top"
-                  // onClick={togglePlay}
-                  // onPlay={() => setIsPlaying(true)}
-                  // onPause={() => setIsPlaying(false)}
-                >
-                  <source src={rows} type="video/mp4" />
-                  {/* Make sure src and type are correctly set */}
-                  Your browser does not support the video tag.
-                </video>
-              )}
-            </div>
+          <div className="e-green-box-container">
+            {rows && (
+              <video
+                controls // Ensure controls are enabled for user interaction
+                className="erly-age-video"
+              >
+                <source src={rows} type="video/mp4" />
+                {/* Make sure src and type are correctly set */}
+                Your browser does not support the video tag.
+              </video>
+            )}
           </div>
         </div>
         <div className="getyoukow-main-container">

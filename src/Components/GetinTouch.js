@@ -69,7 +69,11 @@ const GetinTouch = () => {
     <div>
       <div className="getintouch-container">
         <div className="get-form">
-          {/* <span>Phone Number : +91 78928 58593</span> */}
+          <div className="get-form-number-email">
+
+          <span>Phone Number : +91 78928 58593</span>
+          <span>Email :  activelisteners2024@gmail.com</span>
+          </div>
           <form onSubmit={handleSubmit}>
             <h1>Write to</h1>
             <p>us</p>

@@ -93,36 +93,27 @@ setRows(response.data.reslt[2].source);
           <button>Why Active Listeners?</button>
         </div> */}
       </div>
-      <div className="green-bourd-Earlyage">
-        <div className="card-grif">
-          {/* <div className="circle">
-            <img src={Roundb} alt="" />
-          </div>
-          <div className="circle-b">
-            <img src={Rounda} alt="" />
-          </div> */}
 
-          <div className="card-inneR">
-            <div className="card-inneR-text">
-              <h1>Impact of Gadgets on</h1>
+      <div className="e-green-box">
+        <div className="e-green-box-text">
+          <h1>Impact of Gadgets on </h1>
+          <p>Children</p>
+        </div>
 
-              <p>children</p>
-            </div>
-            {console.log(rows, "mahzaaaaaaaaaaaaaaaaaaaaa")}
-            {rows && (
-              <video
-                controls // Ensure controls are enabled for user interaction
-                className="Header-video-top"
-                onClick={togglePlay}
-                // onPlay={() => setIsPlaying(true)}
-                // onPause={() => setIsPlaying(false)}
-              >
-                <source src={rows} type="video/mp4" />
-                {/* Make sure src and type are correctly set */}
-                Your browser does not support the video tag.
-              </video>
-            )}
-          </div>
+        <div className="e-green-box-container">
+          {rows && (
+            <video
+              controls // Ensure controls are enabled for user interaction
+              className="erly-age-video"
+              onClick={togglePlay}
+              // onPlay={() => setIsPlaying(true)}
+              // onPause={() => setIsPlaying(false)}
+            >
+              <source src={rows} type="video/mp4" />
+              {/* Make sure src and type are correctly set */}
+              Your browser does not support the video tag.
+            </video>
+          )}
         </div>
       </div>
       <div className="getyoukow-main-container">

@@ -174,9 +174,7 @@ const Footer = () => {
         ></a>
        
 
-        {/* <a href="tel:+919113523278" className="call_me">
-<Button variant="outlined"  className='request_btn'>Request To Call</Button>
-</a> */}
+        
       </div>
     </div>
   );
