@@ -1,0 +1,1000 @@
+.gs-header-text p {
+  font-family: myFont;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-decoration: underline;
+}
+.gs-header-inner-text{
+  text-align: center;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2em;
+}
+.gs-header-text h2 {
+  font-family: myFont;
+  color: #256c55;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: -40px;
+  margin-left: 20px;
+}
+.gs-header-text-main{
+display: flex;
+    align-items: center;
+    justify-content: space-around;}
+.gs-header-text h1 {
+  font-family: Relo;
+  font-weight: 900;
+  font-size: 50px;
+  /* color: red; */
+  margin-top: -1%;
+  margin-left: 11px;
+}
+.gs-header img:nth-child(2) {
+  width: 40%;
+  margin-top: -5%;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.benifit-main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.benefit-box-for-griefsupport-group{
+  width: 100%;
+  text-align: left;
+}
+.benefit-box-for-griefsupport-group li{
+  text-align: left;
+  list-style: none;
+}
+.benefit-box-for-griefsupport-group img{
+  width: 30px;
+}
+.button button {
+  padding: 12px 55px;
+  border: none;
+  background-color: #ffdd7e;
+  border-radius: 20px;
+}
+.button img {
+  margin-left: 152px;
+  margin-top: -1px;
+  background-color: #ffdd7e;
+  border-radius: 50%;
+  width: 3%;
+  border: 1px solid white;
+}
+.gs-header-inner-text h5 {
+    font-size: 16px;
+    margin-top: 45px;
+    text-align:justify ;
+}
+.grif-icon {
+    font-size: 30px;
+    margin-left: 102%;
+}
+
+
+.gs-header-inner-text img:nth-child(3) {
+  margin-left: 40%;
+  margin-top: -3%;
+}
+.gsg-box {
+  width: 70%;
+  height: 100px;
+  /* margin-top: 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #bae8ac;
+  margin: 5% auto;
+  gap: 3rem;
+  -webkit-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 10px;
+}
+.color-main-boxese {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.black-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  border: 8px solid white;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.black-round h3 {
+  text-align: center;
+}
+.Time-box-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.colorbox-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: -2%; */
+}
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cd4631;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  -webkit-box-shadow: 7px 7px 43px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 43px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 43px 0px rgba(0, 0, 0, 0.75);
+}
+.benefit-inside-box img {
+    width: 60px;
+}
+.time-box h1 {
+  font-size: 60px;
+  color: white;
+}
+.Time-box-container span {
+  font-size: 40px;
+}
+.color-box-main-container {
+  background-image: url("../Images/ALHeaderbg.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+  place-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  gap: 5rem;
+}
+.color-box-main-container h1{
+font-family: Blacky;
+}
+.imsha-for-grief {
+    /* margin-top: -2px; */
+    padding: 0.2px;
+}
+.Psychologists-main {
+  background-image: url("../Images/Smallpickbg.png");
+  width: 100%;
+  min-height: 120vh;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+
+}
+.div-color-a{
+  background-color: #BAE8AC;
+  width: 500px;
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  padding: 0 1em;
+}
+.div-color-b{
+  background-color: #FFE291
+;
+  width: 500px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.div-color-c{
+  background-color: #FFD1E8
+;
+  width: 500px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.div-color-d{
+  background-color: #CBD9FF;
+  width: 500px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.Psychologists-container {
+  /* position: absolute; */
+  margin-top: 140px;
+}
+.caro-heading-tag-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.caro-heading-tag-a span {
+  font-family: myFont;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.caro-heading-tag-a p {
+  font-family: Relo;
+  font-weight: 900;
+  font-size: 50px;
+}
+.caro-heading-tag-a h1 {
+  font-family: myFont;
+  color: #256c55;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: -40px;
+  margin-left: 20px;
+}
+.buttom-txt-gs {
+  margin-top: 60px;
+  margin-left: 130px;
+}
+
+.palette {
+  display: flex;
+  height: 300px;
+  width: 50%;
+  border-radius: 15px;
+  /* overflow: hidden; */
+  margin: 10px;
+  /* recomiendo quitar esto/quit this */
+}
+
+.color {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.grif-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grif-submit-btn button{
+  background-color: #256c55;
+  color: white;
+  border: none;
+  padding: 10px 170px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px ;
+
+}
+.form-ul-grif{
+  
+}
+.form-ul-grif li{
+  list-style: none;
+  margin: 5px;
+}
+.form-group-radio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color span {
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
+
+.color:nth-child(1) {
+  background: #bae8ac;
+  border: 5px solid white;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: -20px;
+}
+
+.color:nth-child(2) {
+  background: #ffe291;
+  border: 5px solid white;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: -29%;
+}
+
+.color:nth-child(3) {
+  background: #ffd1e8;
+  border: 5px solid white;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: -15%;
+}
+
+.color:nth-child(4) {
+  background: #cbd9ff;
+  border: 5px solid white;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: -15%;
+}
+
+.color:hover {
+  flex: 3;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.color:hover span {
+  opacity: 2;
+}
+.color h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: -2%;
+  width: 190px;
+}
+.color p {
+  color: black;
+  font-size: 16px;
+  margin-left: -2%;
+  width: 200px;
+}
+.indiecate-box {
+  height: 30px;
+  width: 70px;
+  background-color: #2f5ee0;
+}
+.indiecate-box-b {
+  height: 30px;
+  width: 70px;
+  background-color: #d9d9d9;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seat-indecater {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4% auto;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  resize: horizontal;
+  justify-items: center;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
+  padding: 20px;
+  /* padding-right: 2px; */
+  /* margin-bottom: 20px; */
+  width: 100%;
+  overflow: auto;
+  height: auto;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: #2f5ee0;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.box:nth-child(odd) {
+  background: #d9d9d9;
+}
+
+.orange {
+  /* background: #ff6347; */
+}
+.time-box p {
+  color: white;
+}
+.grif-grop-icon {
+  margin-top: -282px;
+  position: absolute;
+  /* color: #256c55; */
+  font-size: 30px;
+}
+.grif-btn{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+}
+.caro-heading-tag-a img{
+ width: 40%;
+}
+@media screen and (max-width: 600px) {
+  
+.div-color-a{
+  background-color: #BAE8AC;
+  width: 315px;
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  padding: 0 1em;
+}
+.div-color-b{
+  background-color: #FFE291
+;
+  width: 315px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.div-color-c{
+  background-color: #FFD1E8
+;
+  width: 315px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.div-color-d{
+  background-color: #CBD9FF;
+  width: 315px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+     .gs-header-inner-text img {
+        width: 13px;
+    }
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+  }
+  .benefit-inside-box img {
+    width: 60px;
+  }
+  .gs-header img:nth-child(2) {
+    width: 40%;
+    /* background-color: red; */
+    /* display: none; */
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0px;
+  }
+  .button button {
+    padding: 1px 30px;
+    border: none;
+    background-color: #ffdd7e;
+    border-radius: 20px;
+  }
+  .Psychologists-container {
+    /* position: absolute; */
+    margin-top: 0px;
+}
+  .color:nth-child(1) {
+    background: #bae8ac;
+    border: 5px solid white;
+    border-radius: 15px;
+    /* margin-left: -60px; */
+    width: 250px;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+
+  .color:nth-child(2) {
+    background: #ffe291;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-left: -23px;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .color:nth-child(3) {
+    background: #ffd1e8;
+    border: 5px solid white;
+    border-radius: 15px;
+    /* margin-left: -60px; */
+    width: 250px;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+
+  .color:nth-child(4) {
+    background: #cbd9ff;
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 250px;
+    /* margin-left: -60px; */
+    margin-bottom: 20px;
+    height: 400px;
+  }
+
+  .gs-header-inner-text img:nth-child(3) {
+    /* margin-left: 52%; */
+  }
+.gs-header-inner-text h5 {
+        /* margin: 23px; */
+        font-size: 12px;
+        font-family: "Questrial", sans-serif;
+    }
+    
+  article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 3fr));
+    resize: horizontal;
+    justify-items: center;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    padding: 20px;
+    margin: auto;
+    /* padding-right: 2px; */
+    /* margin-bottom: 20px; */
+    width: 100%;
+    overflow: auto;
+    height: auto;
+  }
+  .gs-header img:nth-child(2) {
+    width: 40%;
+    /* background-color: red; */
+  }
+  .gs-header-text p {
+    font-family: myFont;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  .gs-header-text h1 {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 26px;
+    /* color: red; */
+    margin-top: -1%;
+    margin-left: 11px;
+  }
+  .gs-header-text h2 {
+    font-family: myFont;
+    color: #256c55;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 29px;
+    margin-bottom: -46px;
+    margin-left: 20px;
+  }
+  .caro-heading-tag-a img {
+    width: 40%;
+  }
+  .caro-heading-tag-a p {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 39px;
+  }
+  .seat-indecater {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 5% auto;
+  }
+  .Time-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+    gap: 0rem;
+  }
+  .gs-header-inner-text {
+    text-align: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.embed{background-color: red;}
+  .black-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border: 8px solid white;
+    background-color: black;
+    height: 102px;
+    width: 108px;
+    border-radius: 50%;
+  }
+  .gsg-box {
+    width: 95%;
+    height: 100px;
+    /* margin-top: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #bae8ac;
+    margin: 7% auto;
+    gap: 1rem;
+  }
+  .color-box-main {
+        background-image: none;
+        width: 100%;
+        height: 235vh;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+    }
+  .colorbox-inside img{
+    width: 60px;
+  }
+  .gs-header-text-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:10px;
+            margin-top: 60px;
+  }
+  .benifit-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+  .Psychologists-main {
+    background-image: url("../Images/Smallpickbg.png");
+
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+  }
+  .gsg-box h1 {
+    font-size: 18px;
+  }
+  .gsg-box h3 {
+    font-size: 16px;
+  }
+  .palette {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 30%;
+  }
+    .grif-icon {
+        font-size: 35px;
+        margin-left: 273px;
+        margin-top: -370px;
+        position: absolute;
+    }
+  .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cd4631;
+    width: 79px;
+    height: 119px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 43px 0px rgba(0, 0, 0, 0.75);
+}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  
+.div-color-a{
+  background-color: #BAE8AC;
+  width: 300px;
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  padding: 0 1em;
+}
+.div-color-b{
+  background-color: #FFE291
+;
+  width: 300px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.div-color-c{
+  background-color: #FFD1E8
+;
+  width: 300px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+.div-color-d{
+  background-color: #CBD9FF;
+  width: 300px;
+  min-height: 400px;
+  display: flex;
+    flex-direction: column;
+    place-items: left;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1em;
+      border-radius: 20px;
+
+
+}
+  /* .color-box-main-container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  } */
+  .benefit-inside-box img {
+    width: 62px;
+}
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 40%; */
+  }
+    .palette {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        height: auto;
+        width: 70%;
+        border-radius: 15px;
+        /* overflow: hidden; */
+        margin: auto;
+    }
+  .seat-box-container {
+    width: 78%;
+  }
+  .gs-header img:nth-child(2) {
+    width: 40%;
+    /* margin-top: -23%; */
+    /* background-color: red; */
+  }
+  .gs-header img:nth-child(3) {
+    width: 15%;
+    margin-top: -10%;
+    margin-left: 73%;
+    /* background-color: red; */
+  }
+  .gs-header-text p {
+    font-family: myFont;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+    text-decoration: underline;
+    margin-left: 12%;
+}
+.gs-header-text h1 {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 32px;
+    /* color: red; */
+    margin-top: -3%;
+    /* margin-left: 11px; */
+}
+.gs-header-text h2 {
+    font-family: myFont;
+    color: #256c55;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: -30px;
+    /* margin-left: 20px; */
+}
+.caro-heading-tag-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 26%; */
+}
+  .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cd4631;
+    width: 121px;
+    height: 127px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 43px 0px rgba(0, 0, 0, 0.75);
+  }
+  .gsg-box {
+    width: 94%;
+    height: 100px;
+    /* margin-top: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #bae8ac;
+    margin: 5% auto;
+    gap: 1rem;
+  }
+  .Psychologists-main {
+    background-image: url("../Images/Smallpickbg.png");
+    width: 100%;
+    height: 77vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+  }
+  .color-main-boxese {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+  }
+    .color:nth-child(1) {
+        background: #bae8ac;
+        border: 5px solid white;
+        border-radius: 15px;
+        margin-left: -60px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+      .color:nth-child(2) {
+        background: #ffe291;
+        border: 5px solid white;
+        border-radius: 15px;
+        margin-left: -40px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+     .color:nth-child(3) {
+        background: #ffd1e8;
+        border: 5px solid white;
+        border-radius: 15px;
+        margin-right: 15px;
+        width: 290px;
+        margin-bottom: 20px;
+    }
+.color-box-main {
+  background-image: url("../Images/ALHeaderbg.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+.Time-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 46px;
+}
+.color:nth-child(4) {
+        background: #cbd9ff;
+        border: 5px solid white;
+        border-radius: 15px;
+        width: 300px;
+        margin-left: -40px;
+        margin-bottom: 20px;
+    }
+  article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    resize: horizontal;
+    justify-items: center;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    padding: 20px;
+    /* padding-right: 2px; */
+    /* margin-bottom: 20px; */
+    width: 155%;
+    overflow: auto;
+    height: auto;
+  }
+}
+

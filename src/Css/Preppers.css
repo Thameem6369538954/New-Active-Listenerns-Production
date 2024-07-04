@@ -1,0 +1,172 @@
+.preppers-header-image img {
+  width: 50%;
+}
+.preppers-header-image {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+.Yellowline-pre,
+.Yellowline-pre {
+  width: 10%;
+}
+.preppers-yellow-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.preppers-box {
+  background-color: #ffdd7e;
+  width: 350px;
+  height: 430px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.preppers-box h2 {
+  margin: 15px;
+  font-size: 30px;
+}
+.preppers-box-bottom-thinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.preppers-box-bottom-thinks img {
+  width: 30%;
+}
+.preppers-box-bottom-thinks img:nth-child(1) {
+  /* background-color: red; */
+  width: 15%;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.preppers-box-bottom-thinks img:nth-child(even) {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* background-color: red; */
+  width: 80%;
+}
+.greenline-preppers {
+  margin-top: -10%;
+}
+.through-therapies img {
+  width: 50px;
+}
+.through-therapies li {
+  list-style: none;
+  text-align: left;
+      display: grid;
+    place-items: flex-start;
+}
+.through-therapies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 65%;
+}
+.through-therapies-box {
+  width: 340px;
+  height: 500px;
+  background-color: #ffdd7e;
+  border-radius: 20px;
+  margin: 40px;
+}
+.through-therapies-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.through-therapies-box {
+  position: relative;
+  margin: auto;
+}
+.through-therapies-box img {
+  margin: 20% 10%;
+    width: 267px;
+}
+.through-therapies-box img:nth-child(2) {
+  /* background-color: red; */
+  position: absolute;
+  width: 90px;
+  margin-top: 1px;
+  margin-left: -30%;
+  z-index: 1;
+}
+.through-therapies-box button {
+  padding: 10px 20px;
+  margin-left: 30%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.through-therapies-box h3 {
+  padding: 10px 20px;
+  /* margin-left: 30%; */
+  text-align: center;
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .preppers-box {
+    background-color: #ffdd7e;
+    width: 331px;
+    height: 480px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+  }
+  .through-therapies-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .preppers-yellow-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .through-therapies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .through-therapies-box {
+    width: 340px;
+    height: 450px;
+    background-color: #ffdd7e;
+    border-radius: 20px;
+    margin: 40px;
+  }
+  .preppers-header-image img {
+    width: 80%;
+}
+  .through-therapies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .preppers-header-image {
+    display: grid;
+    place-items: center;
+    margin-top: 90px;
+}
+.through-therapies-box img {
+    margin: 10% 30px;
+    width: 272px;
+}
+.through-therapies-box img:nth-child(2) {
+    /* background-color: red; */
+    position: absolute;
+    width: 90px;
+    margin-top: 1px;
+    margin-left: -30%;
+    z-index: 1;
+}
+}
