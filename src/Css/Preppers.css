@@ -144,6 +144,10 @@
     border-radius: 20px;
     margin: 40px;
   }
+  .through-therapies li h1
+  {
+    font-size: 20px;
+  }
   .preppers-header-image img {
     width: 80%;
 }
