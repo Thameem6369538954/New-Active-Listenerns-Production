@@ -31,16 +31,19 @@
      display: grid;
     place-items: center;
     grid-template-columns: repeat(2,1fr);
- background-color: #ffdd7e;
+   
     border-radius: 10px;
     width: 100%;
-    margin: 10px;
-    height: 500px;
+    margin: auto;
+    min-height: 600px;
     border-radius: 20px;
 }
 .psyco-form{
+     padding: 20px 1em;
     background-color: #ffdd7e;
     border-radius: 10px;
+    width: 70%;
+    margin: auto;
 }
 @media screen and (max-width:600px) {
     .input-field{
@@ -69,6 +72,16 @@
 }
 }
 @media screen and (min-width:600px ) and (max-width:1024px) {
+    .form-affilate {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    min-height: 600px;
+    border-radius: 20px;
+}
     .input-field{
     display: grid;
     place-items: center;

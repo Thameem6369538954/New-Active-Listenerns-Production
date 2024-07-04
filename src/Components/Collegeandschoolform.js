@@ -175,7 +175,7 @@ const Collegeandschoolform = () => {
           };
 
 
-const [formType, setFormType] = useState(null); 
+const [formType, setFormType] = useState("school"); 
 
   return (
     <div>

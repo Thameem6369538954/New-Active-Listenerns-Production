@@ -235,7 +235,7 @@
   font-weight: 900;
   font-size: 52px;
   margin-top: -2%;
-  text-shadow: 4px 6px 11px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 4px 6px 11px rgba(0, 0, 0, 0.6); */
 }
 .hdr-text {
   margin: 20px;

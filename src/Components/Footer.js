@@ -172,15 +172,7 @@ const Footer = () => {
           style={{ textDecoration: "none", cursor: "pointer", color: "black" }}
           // target="_blank"
         ></a>
-        <a
-          href="tel:+917892858593"
-          style={{ textDecoration: "none", cursor: "pointer", color: "black" }}
-          // target="_blank"
-        >
-          <div className="call-icon">
-            <img src={PhoneIcon} alt="" className="callIcon-fix-img" />
-          </div>
-        </a>
+       
 
         {/* <a href="tel:+919113523278" className="call_me">
 <Button variant="outlined"  className='request_btn'>Request To Call</Button>

@@ -131,58 +131,69 @@ const Navbar = () => {
 
           {user ? (
             <div className="logout">
-              <div className="phone-icon">
-                <FaPhoneAlt />
-                <p>: +91 78928 58593</p>
-              </div>
-            <div className="Logout-btns">
-              <button onClick={handleLogout}>
-                <NavLink className="Links">
-                  <span>Logout</span>
-                </NavLink>
-              </button>
-
-              <div>
-                <div
-                  id="profile-menu"
-                  aria-controls={open ? "basic-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={open ? "true" : undefined}
-                  onClick={handleClicku}
-                  style={{ cursor: "pointer", display: "inline-block" }} // Add any other styling needed
-                >
-                  {!user.profilePic ? (
-                    <img
-                      src={
-                        user.gender === "male"
-                          ? profileMale
-                          : user.gender === "female"
-                          ? profileFemale
-                          : defaultProfile
-                      }
-                      alt="noImage"
-                    />
-                  ) : (
-                    <img src={user.profilePic} alt="noImage" />
-                  )}
+              <a
+                href="tel:+917892858593"
+                style={{
+                  textDecoration: "none",
+                  cursor: "pointer",
+                  color: "black",
+                }}
+                // target="_blank"
+              >
+                <div className="phone-icon">
+                  <FaPhoneAlt />
+                  <p>: +91 78928 58593</p>
                 </div>
-                <Menu
-                  id="basic-menu"
-                  anchorEl={anchorEl}
-                  open={open}
-                  onClose={handleClose}
-                  MenuListProps={{
-                    "aria-labelledby": "profile-menu",
-                  }}
-                >
-                  <Link to="/UserProfile" className="Links">
-                    <MenuItem onClick={handleClose}>Profile</MenuItem>
-                  </Link>
-                  {/* <MenuItem onClick={handleClose}>My account</MenuItem> */}
-                  <MenuItem onClick={handleLogout}>Logout</MenuItem>
-                </Menu>
+              </a>
+
+              <div className="Logout-btns">
+                <button onClick={handleLogout}>
+                  <NavLink className="Links">
+                    <span>Logout</span>
+                  </NavLink>
+                </button>
+
+                <div>
+                  <div
+                    id="profile-menu"
+                    aria-controls={open ? "basic-menu" : undefined}
+                    aria-haspopup="true"
+                    aria-expanded={open ? "true" : undefined}
+                    onClick={handleClicku}
+                    style={{ cursor: "pointer", display: "inline-block" }} // Add any other styling needed
+                  >
+                    {!user.profilePic ? (
+                      <img
+                        src={
+                          user.gender === "male"
+                            ? profileMale
+                            : user.gender === "female"
+                            ? profileFemale
+                            : defaultProfile
+                        }
+                        alt="noImage"
+                      />
+                    ) : (
+                      <img src={user.profilePic} alt="noImage" />
+                    )}
+                  </div>
+                  <Menu
+                    id="basic-menu"
+                    anchorEl={anchorEl}
+                    open={open}
+                    onClose={handleClose}
+                    MenuListProps={{
+                      "aria-labelledby": "profile-menu",
+                    }}
+                  >
+                    <Link to="/UserProfile" className="Links">
+                      <MenuItem onClick={handleClose}>Profile</MenuItem>
+                    </Link>
+                    {/* <MenuItem onClick={handleClose}>My account</MenuItem> */}
+                    <MenuItem onClick={handleLogout}>Logout</MenuItem>
+                  </Menu>
+                </div>
               </div>
-            </div>
             </div>
           ) : (
             <div className="Login-btns-new">

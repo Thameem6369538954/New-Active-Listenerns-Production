@@ -40,7 +40,7 @@
   text-decoration: none;
 }
   .hiring-form-main{
-    height: 150vh;
+    height: auto;
   }
 @media screen and (max-width: 600px) {
   .hiring-form-holeconatiner {
