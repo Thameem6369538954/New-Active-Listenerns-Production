@@ -276,6 +276,15 @@ nav img {
         /* background-color: #ffdd7e; */
         height: 50px;    
       }
+      .phone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 15px;
+    margin: 0px -10px 5px;
+    padding: 8px;
+}
        nav img {
         width: 144px;
         margin-left: 11%;
