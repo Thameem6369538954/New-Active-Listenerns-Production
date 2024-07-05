@@ -4,7 +4,7 @@ import "../Css/Header.css";
 import Hdrleft from "../Images/Hdrleft.png";
 import Arrow from "../Images/Arrow.png";
 import { NavLink, useNavigate } from "react-router-dom";
-import FrameA from "../Images/FrameA.png";
+import Finding from "../Images/Finding.png";
 import FrameB from "../Images/FrameB.png";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import WHYAL from "../Videos/WHYAL.mp4";
@@ -161,9 +161,10 @@ const Header = () => {
 
           <div className="hdr-new-text">
             <div className="hdr-text-landing">
-              <h1>Helping you </h1>
+              {/* <h1>Helping you </h1>
               <h2>Find</h2>
-              <h3>Balance & Focus</h3>
+              <h3>Balance & Focus</h3> */}
+            <img src={Finding} alt="" />
             </div>
             <p>
               Active Listeners is dedicated to enhancing well-being and personal
