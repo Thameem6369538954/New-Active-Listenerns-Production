@@ -22,8 +22,8 @@
 }
 .back-arrow{
     font-size: 50px;
-    margin-right: 5px;
-    z-index: 9999;
+        margin-top: -26px;
+        z-index: 3;
 }
 .breadcrumb li{
     list-style: none;

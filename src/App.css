@@ -19,3 +19,28 @@
     line-height: 1;
     opacity: .75;
 }
+/* For Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 50px; /* Rounded corners */
+  border: 3px solid red; /* Space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: 40px; /* Makes the scrollbar thinner */
+  scrollbar-color: #BAE8AC #f1f1f1; /* Thumb and track color */
+  scroll-behavior: smooth;
+}

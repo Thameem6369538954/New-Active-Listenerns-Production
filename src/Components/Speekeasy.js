@@ -6,10 +6,25 @@ import Yellowline from "../Images/Yellowline.png";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import axios from "../Utils/Baseurl.js";
 import { toast } from "react-toastify";
-
+import Speak from "../Images/Speak.png";
+import Easy from "../Images/Easy.png";
 
 import { InlineWidget } from "react-calendly";
 const Speekeasy = () => {
+    const [isHovered, setIsHovered] = useState({});
+
+    const handleMouseEnter = (image) => {
+      setIsHovered((prevState) => ({ ...prevState, [image]: true }));
+    };
+
+    const handleMouseLeave = (image) => {
+      setIsHovered((prevState) => ({ ...prevState, [image]: false }));
+    };
+
+    const getScaleStyle = (image) => ({
+      transform: isHovered[image] ? "scale(1.1)" : "scale(1)",
+      transition: "transform 0.3s ease-in-out",
+    });
   const [wantComplimentaryCall, setWantComplimentaryCall] = useState(false);
   const appointmentSubmit = (e) => {
     e.preventDefault();
@@ -53,12 +68,28 @@ const Speekeasy = () => {
   return (
     <div>
       <div className="therapy-heading">
-        <p>Therapy for you!</p>
-        <h1>Speak-Easy Therapy</h1>
-        <h2>Session</h2>
-        <img src={Yellowline} className="Yellowline" alt="" />
+        <img
+          src={Easy}
+          alt=""
+          style={getScaleStyle("Easy")}
+          onMouseEnter={() => handleMouseEnter("Easy")}
+          onMouseLeave={() => handleMouseLeave("Easy")}
+        />
+        <div className="therapy-heading-text">
+          <p>Therapy for you!</p>
+          <h1>Speak-Easy Therapy</h1>
+          <h2>Session</h2>
+          <img src={Yellowline} className="Yellowline" alt="" />
+        </div>
+        <img
+          src={Speak}
+          alt=""
+          style={getScaleStyle("Easy")}
+          onMouseEnter={() => handleMouseEnter("Easy")}
+          onMouseLeave={() => handleMouseLeave("Easy")}
+        />
       </div>
-      <div style={{padding:"0 2em",textAlign:"center"}}>
+      <div style={{ padding: "0 2em", textAlign: "center" }}>
         <p>
           In today's fast-paced world, many people struggle anxiety, depression,
           and staying focused. To help address these issues, a new service

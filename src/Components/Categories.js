@@ -414,6 +414,7 @@ const Categories = () => {
                     <span
                       className="read-less-link"
                       style={{ fontSize: "16px", fontWeight: 900 }}
+                     
                       onClick={toggleExpandedD}
                     >
                       {" "}

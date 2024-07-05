@@ -81,7 +81,7 @@ const EntertainmentandperformanceAddiction = () => {
                   For Teenagers{" "}
                 </h1>
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  Mobile
+                  Entertainment & Performance?
                 </h2>
                 <h3 data-aos="fade-up" data-aos-duration="3000">
                   Addiction

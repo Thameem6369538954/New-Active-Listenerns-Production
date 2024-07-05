@@ -339,6 +339,7 @@
   margin: auto;
   display: grid;
   place-items: center;
+  position: relative;
 }
 
 .header-top-video {
@@ -421,9 +422,9 @@
 
 @media screen and (max-width: 600px) {
       .header-main img {
-        width: 81%;
-        margin-top: -3%;
+        width: 92%;
         position: absolute;
+        bottom: -57px;
     }
   .cate-left-box {
     display: grid;
@@ -473,7 +474,7 @@
     margin: auto;
   }
   .Header-video-top {
-    width: 50%;
+    width: 80%;
     border-radius: 20px;
   }
   .e-green-box{
@@ -518,8 +519,36 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .categoreis-grid-box p {
-    font-size: 14px;
-  }
+        font-size: 21px;
+        padding: 7px 1em;
+   }
+   .element h4 {
+    font-size: 21px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0 1em;
+}
+.categories-main p{
+  font-size: 21px;
+  padding: 0 1em;
+}
+.cate-left-box h2 {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 20px;
+}
+.yellow-box{
+  margin-top: 50px;
+}
+  .categoreis-grid-box {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 302px;
+    height: 40px;
+    margin-bottom: 30px;
+}
   .categoreis-grid-box:hover .arrow-for-header {
     display: block;
     margin-top: -20px;
@@ -578,14 +607,15 @@
     font-family: myFont;
     font-weight: 400;
     font-style: normal;
-    font-size: 35px;
+    font-size: 50px;
+            margin-top: auto;
   }
   .hdr-text h3 {
     font-family: myFont;
     color: #256c55;
     font-weight: 400;
     font-style: normal;
-    font-size: 31px;
+    font-size: 50px;
     /* width: 124%; */
     margin-top: -15%;
   }
@@ -594,7 +624,8 @@
         color: #256c55;
         font-weight: 400;
         font-style: normal;
-        font-size: 31px;
+        font-size: 50px;
+        margin-top: -35px;
   }
   .hdr-text h2 {
     font-family: Relo;
@@ -604,7 +635,7 @@
   .hdr-text-landing h2 {
     font-family: Relo;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: -9px;
   }
   .puzzle-boy {
@@ -654,11 +685,12 @@
     justify-content: space-around;
     height: auto;
   }
-  .hdr-new-text p {
-    text-align: center;
-    font-size: 18px;
-    line-height: 2rem;
-}
+      .hdr-new-text p {
+        text-align: justify;
+        font-size: 21px;
+        line-height: 2rem;
+        padding: 0 2em;
+    }
 
 }
 @media (min-width: 600px) and (max-width: 1024px) {

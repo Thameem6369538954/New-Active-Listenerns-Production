@@ -1,4 +1,15 @@
 
+.therapy-heading img{
+    width: 20%;
+     display: inline-block;
+}
+.therapy-heading img:nth-child(1){
+    width: 10%;
+}
+.therapy-heading-text{
+  display: grid;
+  place-items: center;
+}
 .container-speek {
   position: relative;
   text-align: center;

@@ -134,16 +134,14 @@ const Header = () => {
   return (
     <div className="header-main">
       <div className="header-img">
-      <img src={YImg} alt="" />
+        <img src={YImg} alt="" />
       </div>
       <div className="yellow-box">
         <ul className="yellow-box-ul">
           {/* <marquee> */}
           <div className="main-y-div">
             <div>
-              <li>
-                Developed by Psychologists
-              </li>
+              <li>Developed by Psychologists</li>
             </div>
             <div>
               <li>Zero - Medication </li>
@@ -168,12 +166,12 @@ const Header = () => {
               <h3>Balance & Focus</h3>
             </div>
             <p>
-              Our diverse range of services includes workshops, listening
-              sessions, and creative therapies tailored specifically for
-              children and families dealing with anxiety, depression, and social
-              isolation. From music and art therapy to engaging games and
-              comics, we create safe, fun, and supportive environments to foster
-              communication, understanding, and healing.
+              Active Listeners is dedicated to enhancing well-being and personal
+              growth through professional listening services, workshops,
+              mentorship programs and career counseling. Our team of
+              psychologists and experts are committed to supporting individuals
+              through various therapeutic techniques including music ,laughter &
+              aroma therapy.
             </p>
             <div className="hrd-btn-new">
               <MdKeyboardDoubleArrowDown

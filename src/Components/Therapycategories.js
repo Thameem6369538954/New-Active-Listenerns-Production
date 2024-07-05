@@ -63,10 +63,13 @@ const Therapycategories = () => {
             <img src={Bulb} alt="" />
 
             <div className="therapy-heading">
+              <div className="therapy-heading-inside">
+
               <p>One Platform, Multiple touchpoints</p>
               <h1>We are here to</h1>
               <h2>Help</h2>
               <img src={Yellowline} className="Yellowline" alt="" />
+              </div>
               {/* <img src={EllipseRed} alt="" /> */}
             </div>
           </div>

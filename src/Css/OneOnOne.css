@@ -5,6 +5,46 @@
   justify-content: center;
   margin: 20px auto;
 }
+.therapy-heading-oneonone{
+  display: flex;
+    align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 0 10px;
+  width: 80%;
+}
+.therapy-heading-oneonone img{
+width: 23%;
+}
+.therapy-heading-oneonone-inner{
+  display: grid;
+  place-items: center;
+  margin: 5% auto;
+
+}
+.therapy-heading-oneonone-inner p{
+  font-family: Relo;
+  font-weight: 900;
+  font-size: 33px;
+  margin: -9px;
+}
+
+.therapy-heading-oneonone-inner h1{
+  font-family: Relo;
+  font-weight: 900;
+  font-size: 33px;
+  margin: -9px;
+}
+.therapy-heading-oneonone-inner h2{
+  font-family: myFont;
+  color: #256C55;
+  font-weight: 900;
+  font-size: 33px;
+  margin: -9px;
+}
+.therapy-heading-oneonone-inner img{
+  width: 50%;
+}
 
 .container-speek-a {
   position: relative;

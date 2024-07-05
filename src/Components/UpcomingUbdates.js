@@ -22,31 +22,31 @@ const UpcomingUbdates = () => {
           <h1>Join Our Exciting Workshops and Sessions</h1>
           <div className="upcoming-events-categories">
             <div className="kids">
+              <span
+                style={{
+                  fontWeight: "900",
+                  color: "black",
+                  fontSize: "25px",
+                }}
+              >
+                Kids Creative Play Date :
+              </span>{" "}
               <p>
-                <span
-                  style={{
-                    fontWeight: "900",
-                    color: "black",
-                    fontSize: "25px",
-                  }}
-                >
-                  Kids Creative Play Date :
-                </span>{" "}
                 August 15, 2024 - A day filled with fun, games, and creativity
                 designed to boost confidence and social skills in children.
               </p>
             </div>
             <div className="adults-family">
+              <span
+                style={{
+                  fontWeight: "900",
+                  color: "black",
+                  fontSize: "25px",
+                }}
+              >
+                Family Therapy Workshop :{" "}
+              </span>
               <p>
-                <span
-                  style={{
-                    fontWeight: "900",
-                    color: "black",
-                    fontSize: "25px",
-                  }}
-                >
-                  Family Therapy Workshop :{" "}
-                </span>
                 August 15, 2024- A workshop for families looking to enhance
                 their communication and resolve conflicts through guided
                 activities.
@@ -56,9 +56,9 @@ const UpcomingUbdates = () => {
           <div className="up-btn">
             {wantComplimentaryCall ? (
               <>
-            <span className="up" onClick={handleClose}>
-              <AiOutlineCloseCircle className="speektop-icon" />
-            </span>
+                <span className="up" onClick={handleClose}>
+                  <AiOutlineCloseCircle className="speektop-icon" />
+                </span>
                 <InlineWidget
                   url="https://calendly.com/teammentoons/active-listeners"
                   className="calendly-embed"

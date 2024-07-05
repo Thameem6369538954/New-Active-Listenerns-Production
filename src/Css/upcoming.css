@@ -19,10 +19,7 @@
     font-size: 50px;
     color: black;
 }
-.upcoming-ideas h1::first-letter {
-  font-size: 80px;
-  color: #256c55;
-}
+
 .upcoming-events-categories{
     display: flex;
     align-items: center;
@@ -55,4 +52,19 @@
     padding: 10px 20px;
     border-radius: 10px;
 
+}
+@media screen and (max-width: 600px) {
+    .upcoming-events-categories{
+        flex-direction: column;
+    }
+    .upcoming-ideas h1 {
+    font-size: 30px; 
+}
+.upcoming-ideas {
+    background-color: #bae8ac;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 400px;
+    padding: 20px 2em;
+}
 }

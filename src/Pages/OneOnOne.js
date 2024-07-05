@@ -12,6 +12,8 @@ import GetinTouch from "../Components/GetinTouch";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { InlineWidget } from "react-calendly";
 import Breadcrumps from "../Components/Breadcrumps";
+import OneA from "../Images/OneA.png";
+import OneB from "../Images/OneB.png";
 
 const OneOnOne = () => {
   const [wantComplimentaryCall, setWantComplimentaryCall] = useState(false);
@@ -29,11 +31,15 @@ const OneOnOne = () => {
       <Navbar />
       <Breadcrumps />
       <div className="oneonone-main">
-        <div className="therapy-heading">
-          <p>Therapy for you!</p>
-          <h1>One-on- one Session</h1>
-          <h2>Preppers</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
+        <div className="therapy-heading-oneonone">
+          <img src={OneA} alt="" />
+          <div className="therapy-heading-oneonone-inner">
+            {/* <p>Therapy for you!</p> */}
+            <h1>One-on- one Session</h1>
+            <h2>Preppers</h2>
+            <img src={Yellowline} className="Yellowline" alt="" />
+          </div>
+          <img src={OneB} alt="" />
           {/* {wantComplimentaryCall ? (
             <>
               <span className="close-calendly" onClick={handleClose}>
@@ -93,12 +99,10 @@ const OneOnOne = () => {
           </div>
         </div>
       </div>
-      <div className="therapy-heading">
+      <div className="therapy-heading-oneonone-inner">
         <p>Therapies in senses Resurrecction</p>
         <h1>We offer</h1>
         <h2>Multiple therapies</h2>
-        <img src={Yellowline} className="Yellowline" alt="" />
-        {/* <button>Schedule Now</button> */}
       </div>
       <div className="weekly-meetup-box-container">
         <div className="weeekly-meetup-box">

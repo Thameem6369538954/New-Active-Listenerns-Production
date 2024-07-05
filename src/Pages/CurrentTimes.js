@@ -4,8 +4,8 @@ import Navbar from "../Components/Navbar";
 import GetinTouch from "../Components/GetinTouch";
 import Footer from "../Components/Footer";
 import Therapycategories from "../Components/Therapycategories";
-import earlyAgeright2 from "../Images/earlyAgeright.png";
-import earlyAgeleft from "../Images/earlyAgeleft.png";
+import CovidA from "../Images/CovidA.png";
+import CovidB from "../Images/CovidB.png";
 import Rounda from "../Images/Rounda.png";
 import Roundb from "../Images/Roundb.png";
 import earlyAgeBoxImg from "../Images/earlyAgeBoxImg.png";
@@ -52,7 +52,7 @@ const CurrentTimes = () => {
         <div className="header">
           <div className="header-container">
             <img
-              src={earlyAgeleft}
+              src={CovidB}
               data-aos="fade-right"
               data-aos-duration="1000"
               alt=""
@@ -69,7 +69,7 @@ const CurrentTimes = () => {
               </h3>
             </div>
             <img
-              src={earlyAgeright2}
+              src={CovidA}
               data-aos="fade-right"
               data-aos-duration="1000"
               alt=""

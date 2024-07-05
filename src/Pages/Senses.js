@@ -22,6 +22,8 @@ import { SlArrowLeft } from "react-icons/sl";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";
 import About from "../Images/About.png"
+import SensesA from "../Images/SensesA.png"
+import SensesB from "../Images/SensesB.png"
 
 const Senses = () => {
  const [isActive, setIsActive] = useState(false);
@@ -51,38 +53,15 @@ const Senses = () => {
       <Navbar />
       <div className="secnses-main-con">
         <Breadcrumps />
-        <div className="therapy-heading">
+        <div className="senses-heading">
           {/* <p>Therapy for you!</p> */}
-          <h1>Senses</h1>
-          <h2>Resurrection</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
-          {wantComplimentaryCall ? (
-            <>
-              <span className="close-calendly" onClick={handleClose}>
-                <AiOutlineCloseCircle className="senestop-icon" />
-              </span>
-
-              <InlineWidget
-                url="https://calendly.com/teammentoons/active-listeners"
-                className="calendly-embed"
-              />
-            </>
-          ) : (
-            <></>
-          )}
-
-          {wantComplimentaryCall ? (
-            <></>
-          ) : (
-            <div className="tele-buttons">
-              <button onClick={appointmentSubmit}>Get Appointment</button>
-              <p>Book Your Complimentary 15-min Call</p>
-              <TiArrowRightThick
-                onClick={appointmentSubmit}
-                className="arrow-for-tele"
-              />
-            </div>
-          )}
+          <img src={SensesA} alt="" />
+          <div className="senses-heading-inner">
+            <h1>Senses</h1>
+            <h2>Resurrection</h2>
+            {/* <img src={Yellowline} className="Yellowline" alt="" /> */}
+          </div>
+          <img src={SensesB} alt="" />
         </div>
         {/* <div className="green-bourd-grief">
           <div className="card-grif">
@@ -103,6 +82,33 @@ const Senses = () => {
             </div>
           </div>
         </div> */}
+        {wantComplimentaryCall ? (
+          <>
+            <span className="close-calendly" onClick={handleClose}>
+              <AiOutlineCloseCircle className="senestop-icon" />
+            </span>
+
+            <InlineWidget
+              url="https://calendly.com/teammentoons/active-listeners"
+              className="calendly-embed"
+            />
+          </>
+        ) : (
+          <></>
+        )}
+
+        {wantComplimentaryCall ? (
+          <></>
+        ) : (
+          <div className="tele-buttons">
+            <button onClick={appointmentSubmit}>Get Appointment</button>
+            <p>Book Your Complimentary 15-min Call</p>
+            <TiArrowRightThick
+              onClick={appointmentSubmit}
+              className="arrow-for-tele"
+            />
+          </div>
+        )}
 
         <div className="sense-main-con">
           <div className={`container ${isActive ? "active" : ""}`}>

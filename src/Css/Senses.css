@@ -137,14 +137,32 @@
 .secnses-main{
   z-index: -9999;
 }
-/* .container {
-    margin: 0%;
-    border: 2px dashed #BDBDBD;
-    border-radius: 4%;
-    padding: 0 1em;
-    min-height: 366px;
-    padding: 0 1em;
-} */
+.senses-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.senses-heading-inner{
+  display: grid;
+  place-items: center;
+}
+.senses-heading-inner h1{
+ font-size: 70px;
+  font-family: Relo;
+}
+.senses-heading-inner h2{
+ font-family: myFont;
+        color: #256c55;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        margin-top: -2%;
+}
+
+.senses-heading img{
+  width: 25%;
+}
 @media (min-width: 600px) and (max-width: 1024px) {
   .sense-theropy h1 {
     font-size: 28px;
@@ -198,6 +216,9 @@
   }
   .close-calendly {
     margin-left: 10px;
+  }
+  .senses-heading-inner h1,.senses-heading-inner h2{
+    font-size: 35px;
   }
   .sense-theropy li {
     list-style: none;

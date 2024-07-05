@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import GetinTouch from "../Components/GetinTouch";
 import Footer from "../Components/Footer";
 import Therapycategories from "../Components/Therapycategories";
-import earlyAgeright2 from "../Images/earlyAgeright.png";
+import thamm from "../Images/thamm.png";
 import earlyAgeleft from "../Images/earlyAgeleft.png";
 import Rounda from "../Images/Rounda.png";
 import Roundb from "../Images/Roundb.png";
@@ -75,7 +75,7 @@ const LearningandFocus = () => {
                 </h3>
               </div>
               <img
-                src={earlyAgeright2}
+                src={thamm}
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 alt=""
