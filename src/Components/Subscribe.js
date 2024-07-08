@@ -26,6 +26,7 @@ import GetinTouch from "../Components/GetinTouch";
 import { InlineWidget } from "react-calendly";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import Breadcrumps from "../Components/Breadcrumps";
+import HowElse from "../Images/HowElse.png"
 const Subscribe = () => {
     const [wantComplimentaryCall, setWantComplimentaryCall] = useState(false);
     const appointmentSubmit = (e) => {
@@ -187,9 +188,10 @@ const Subscribe = () => {
       <div className="Subscribe-main">
         <div className="Subscribe-cate">
           <div className="Subscribe-heading">
-            <p>One Platform, Multiple touchpoints</p>
+            {/* <p>One Platform, Multiple touchpoints</p>
             <h1>How Else we can</h1>
-            <h2>Help</h2>
+            <h2>Help</h2> */}
+            <img src={HowElse} alt="" />
           </div>
 
           <div
@@ -240,18 +242,17 @@ const Subscribe = () => {
               <div className="hdrsubs-butns-a">
                 {wantComplimentaryCall ? (
                   <>
-                  <div className="sub-telecall">
-                    <span className="close-calendly" onClick={handleClose}>
-                      <AiOutlineCloseCircle className="senestop-icon" />
-                    </span>
+                    <div className="sub-telecall">
+                      <span className="close-calendly" onClick={handleClose}>
+                        <AiOutlineCloseCircle className="senestop-icon" />
+                      </span>
 
-                    <InlineWidget
-                      url="https://calendly.com/teammentoons/active-listeners"
-                      // className="calendly-embed-header"
-                      // style={{ width: "10%", height: "100%" }}
-                    />
-
-                  </div>
+                      <InlineWidget
+                        url="https://calendly.com/teammentoons/active-listeners"
+                        // className="calendly-embed-header"
+                        // style={{ width: "10%", height: "100%" }}
+                      />
+                    </div>
                   </>
                 ) : (
                   <></>
@@ -260,9 +261,7 @@ const Subscribe = () => {
                 {wantComplimentaryCall ? (
                   <></>
                 ) : (
-                  
-                    <button onClick={appointmentSubmit}>Get Appointment</button>
-                    
+                  <button onClick={appointmentSubmit}>Get Appointment</button>
                 )}
                 <img src={Doc} alt="" />
               </div>
@@ -316,7 +315,6 @@ const Subscribe = () => {
                         <div className="home-caro-align">
                           <video
                             controls
-                            
                             className="posdcast-video"
                             onClick={togglePlay}
                             onPlay={() => setIsPlaying(true)}

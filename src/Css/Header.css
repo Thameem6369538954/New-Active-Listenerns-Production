@@ -24,15 +24,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
-  min-height: 350px;
   width: 100%;
   position: relative;
 }
 .hdr-text-landing img{
   width: 100%;
-  position: absolute;
-  top: 100px;
+ 
 }
 .nav-icons {
   z-index: 9999;
@@ -173,7 +170,7 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
 }
 
 @keyframes moveUpDown {
@@ -334,9 +331,9 @@
   margin: 20px;
 }
 .puzzle-boy img {
-  margin-left: 73%;
+  /* margin-left: 73%; */
   z-index: 1;
-  margin-top: -32px;
+  /* margin-top: -32px; */
 }
 .header-main img{
   width: 40%;
@@ -428,8 +425,7 @@
 @media screen and (max-width: 600px) {
       .header-main img {
         width: 92%;
-        position: absolute;
-        bottom: -57px;
+       
     }
   .cate-left-box {
     display: grid;
@@ -485,10 +481,7 @@
   .e-green-box{
     width: 85%;
   }
-  .header-container img:nth-child(1) {
-    background-color: #cd4631;
-    display: none;
-  }
+  
   .inside-hdr-btm-txt img {
     width: 84px;
   }
@@ -500,9 +493,6 @@
   }
   .header-container img {
     width: 35%;
-  }
-  .header-container img:nth-child(1) {
-    background-color: #cd4631;
   }
   .hdr-btm-text {
     display: flex;

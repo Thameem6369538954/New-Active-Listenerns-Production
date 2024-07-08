@@ -8,6 +8,10 @@
   -moz-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
+.Subscribe-heading img{
+  width: 30%;
+
+}
 .sub-telecall{
   margin-top: -400px;
 }

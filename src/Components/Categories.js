@@ -11,6 +11,7 @@ import WHYAL from "../Videos/WHYAL.mp4";
 import { MdPlayCircleFilled } from "react-icons/md";
 import axios from "../Utils/Baseurl.js";
 import { toast } from "react-toastify";
+import Core from "../Images/Core.png";
 const Categories = () => {
   // const [isPlaying, setIsPlaying] = useState(false);
  const videoRef = useRef(null);
@@ -140,37 +141,10 @@ const Categories = () => {
       <div className="puzzle-boy">
         <div className="imsha">
           <div className="bg" data-aos="zoom-in" data-aos-duration="1000">
-            <span>Services we Offer</span>
-            <p>Our Core</p>
-            <h1>Discoveries</h1>
+            <img src={Core} alt="" />
           </div>
         </div>
-        <div className="element">
-          <img
-            src={Elements}
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="3000"
-            alt=""
-          />
-          <h4
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-          >
-            Transformative support for those seeking clarity and understanding
-            through active listening.
-          </h4>
-        </div>
-        {/* <img
-          src={Maskgroup}
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          alt=""
-        /> */}
+       
       </div>
       <div className="categories-main">
         <div className="cate-yellow-box">
@@ -414,7 +388,6 @@ const Categories = () => {
                     <span
                       className="read-less-link"
                       style={{ fontSize: "16px", fontWeight: 900 }}
-                     
                       onClick={toggleExpandedD}
                     >
                       {" "}
