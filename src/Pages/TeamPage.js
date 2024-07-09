@@ -108,7 +108,7 @@ const TeamPage = () => {
           <h1>meet the Team Of</h1>
           <h2>Active Listening</h2>
           <div className="teampage-intro">
-            <img src={ElementB} alt="" />
+            
             <span>
               Transformative support for those seeking clarity and understanding
               through active listening.
@@ -211,7 +211,6 @@ const TeamPage = () => {
         <p>Psycolgits Team</p>
         <h1>Meet our Project</h1>
         <h2>Team</h2>
-        <img src={Yellowline} className="Yellowline" alt="" />
         <div className="teampage-intro">
           {/* <img src={ElementB} alt="" /> */}
           <span>

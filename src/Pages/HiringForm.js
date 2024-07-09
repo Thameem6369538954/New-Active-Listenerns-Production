@@ -12,17 +12,18 @@ import { useNavigate } from "react-router-dom";
 
 const HiringForm = (props) => {
   const [file, setFile] = useState(null);
+   const navigate = useNavigate();
+   const { position } = useParams();
   const [formDatas, setFormDatas] = useState({
     name: "",
     email: "",
     mobile: "",
     coverletter: "",
-    position: "",
+    position: position,
     agree: false,
   });
   const [errors, setErrors] = useState({});
-  const navigate = useNavigate();
-  const { position } = useParams();
+ 
 
   const handleChange = (e) => {
     const { name, value } = e.target;

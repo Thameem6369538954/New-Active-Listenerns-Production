@@ -353,6 +353,7 @@
 
 .Header-video-top {
   width: 40%;
+  margin: 20px;
   border-radius: 20px;
   box-shadow: 18px 17px 15px -3px rgba(0, 0, 0, 0.1),
     0px 10px 15px -3px rgba(0, 0, 0, 0.1);

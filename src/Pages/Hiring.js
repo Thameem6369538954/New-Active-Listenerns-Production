@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useState, useEffect,useContext } from "react";
 import "../Css/Hiring.css";
 import Navbar from "../Components/Navbar";
 import Yellowline from "../Images/Yellowline.png";
@@ -11,12 +11,35 @@ import GetinTouch from "../Components/GetinTouch";
 import Footer from "../Components/Footer";
 import { NavLink } from "react-router-dom";
 import Breadcrumps from "../Components/Breadcrumps";
+import axios from "../Utils/Baseurl.js";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 const Hiring = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+   const [rows, setRows] = useState("");
+   useEffect(() => {
+     const fetchData = async () => {
+       try {
+         const response = await axios.get("admin/get_allVideos");
+         console.log(response.data.reslt, "arrayobjjjjjjjjjjjjjjjj"); // Log the second object in the response
+         if (response) {
+           // const videoData = response.data.reslt[1]; // Retrieve the video data
+           // Now you can use videoData to set the state or display the video
+           setRows(response.data.reslt[12].source);
+           // setVid2;(response.data.reslt[1].source)
+         } else {
+           toast.error("something went wrong!!");
+         }
+       } catch (error) {
+         console.log(error);
+       }
+     };
+     fetchData();
+   }, []);
   return (
     <div>
       <Navbar />
@@ -28,9 +51,8 @@ const Hiring = () => {
           <h2>Team</h2>
           {/* <img src={Yellowline} className="Yellowline" alt="" /> */}
           <h4>
-           Transformative
-            support for those seeking clarity and understanding through active
-            listening.
+            Transformative support for those seeking clarity and understanding
+            through active listening.
           </h4>
         </div>
 
@@ -48,14 +70,16 @@ const Hiring = () => {
             />
 
             <div className="inside-mobile-addiction-txt">
-              <h1>Are you Addicted to the Mobile phone?</h1>
-              <img
-                src={MoAddiction}
-                style={{
-                  width: "60%",
-                }}
-                alt=""
-              />
+              <h1>Our Testimonial Video</h1>
+              {rows && (
+                <video
+                  controls
+                  className="Header-video-top"
+                >
+                  <source src={rows} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              )}
             </div>
             <img
               src={Rounda}
