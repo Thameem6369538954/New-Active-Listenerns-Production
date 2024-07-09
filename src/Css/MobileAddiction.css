@@ -328,4 +328,8 @@ h4 {
   .header-container-mobile img {
     width: 26%;
   }
+  
+.header-container-mobile {
+  gap: 1rem;
+}
 }

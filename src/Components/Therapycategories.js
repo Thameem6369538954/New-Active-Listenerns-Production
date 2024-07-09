@@ -10,6 +10,7 @@ import Bulb from "../Images/Bulb.png";
 import EllipseRed from "../Images/EllipseRed.png";
 import EllipseGreen from "../Images/EllipseGreen.png";
 import Senses from "../Images/Senses.png";
+import Howwe from "../Images/Howwe.png";
 import Speakeasy from "../Images/Speakeasy.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -60,15 +61,11 @@ const Therapycategories = () => {
         {/* <img src={EllipseRed} alt="" /> */}
         <div className="therapy-cate">
           <div className="bulb">
-            <img src={Bulb} alt="" />
+            {/* <img src={Bulb} alt="" /> */}
 
             <div className="therapy-heading">
               <div className="therapy-heading-inside">
-
-              <p>One Platform, Multiple touchpoints</p>
-              <h1>We are here to</h1>
-              <h2>Help</h2>
-              <img src={Yellowline} className="Yellowline" alt="" />
+                <img src={Howwe} alt="" />
               </div>
               {/* <img src={EllipseRed} alt="" /> */}
             </div>

@@ -498,8 +498,15 @@
     transition: left 0.3s ease-out;
     z-index: 1;
 } 
+.Subscribe-heading img {
+    width: 70%;
+}
 }
 @media (min-width: 600px) and (max-width: 1024px) {
+  .Subscribe-heading img {
+    width: 60%;
+}
+
     .hdrsubs-butns img {
         width: 43%;
         margin-top: -1%;
