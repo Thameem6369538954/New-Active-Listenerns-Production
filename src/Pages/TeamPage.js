@@ -107,7 +107,6 @@ const TeamPage = () => {
           <p>Who we are</p>
           <h1>meet the Team Of</h1>
           <h2>Active Listening</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
           <div className="teampage-intro">
             <img src={ElementB} alt="" />
             <span>
@@ -171,7 +170,6 @@ const TeamPage = () => {
           <p>Psycologist Team</p>
           <h1>Meet our Phycologist</h1>
           <h2>Team</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
           <div className="teampage-intro">
             {/* <img src={ElementB} alt="" /> */}
             <span>

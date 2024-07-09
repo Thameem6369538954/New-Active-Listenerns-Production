@@ -36,9 +36,8 @@ const Preppers = () => {
           <p>One Platform, Multiple touchpoints</p>
           <h1>Preppers Offer Multiple</h1>
           <h2>Therapies</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
           <span style={{fontFamily:"Poppins"}}>
-            <img src={Downarrow} className="down-arrow" alt="" /> Our sessions
+          Our sessions
             are not just activities; they are gateways to improved mental
             health,<br></br> heightened focus and a balanced lifestyle for the
             children's, Parents & Carers..
@@ -96,7 +95,6 @@ const Preppers = () => {
           <p>Workshops developed and Delivered By Psychologists</p>
           <h1>Learning & Focus </h1>
           <h2>Through Therapies</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
         </div>
       </div>
       <div className="through-therapies-container">

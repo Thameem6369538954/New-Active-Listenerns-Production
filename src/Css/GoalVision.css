@@ -115,14 +115,22 @@
     justify-content: center;
     background-color: #ffdd7e;
     height: 300px;
-    width: 75%;
+    width: 95%;
     border-radius: 20px;
     border: 1px solid black;
     margin: auto;
+    text-align: center;
+    gap: 1rem;
 }
 .goal-box-container img {
-  height: 200px;
-  width: 180px;
+     height: 80%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.positon-name{
+  width: 50%;
+  padding: 0 1em;
 }
 .line-caro {
   width: 70%;

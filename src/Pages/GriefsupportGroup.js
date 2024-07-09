@@ -405,7 +405,7 @@ const GriefsupportGroup = () => {
           <p>Meetup groups developed and Delivered By Psychologists</p>
           <h1>What you will gain</h1>
           <h2>From this meetup</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
+          {/* <img src={Yellowline} className="Yellowline" alt="" /> */}
         </div>
         <div className="benifit-main">
           <div className="benefit-inside-box">
