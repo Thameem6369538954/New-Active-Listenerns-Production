@@ -18,7 +18,15 @@
   margin-top: -76%;
   z-index: -9999;
 }
-
+.commen-image{
+  display: grid;
+  place-items: center;
+  height: 50vh;
+}
+.commen-image img{
+  width: 40%;
+  /* height: 0vh; */
+}
 .hdr-text-landing {
   display: flex;
   flex-direction: column;

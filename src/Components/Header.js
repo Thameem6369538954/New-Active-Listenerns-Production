@@ -13,7 +13,7 @@ import { toast } from "react-toastify";
 import Navarrow from "../Images/Navarrow.png"
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import YImg from "../Images/YImg.png"
-
+import Coomen from "../Images/Coomen.png"
 const Header = () => {
   const [isAnimating, setIsAnimating] = useState(true);
   const [position, setPosition] = useState(0);
@@ -161,10 +161,7 @@ const Header = () => {
 
           <div className="hdr-new-text">
             <div className="hdr-text-landing">
-              {/* <h1>Helping you </h1>
-              <h2>Find</h2>
-              <h3>Balance & Focus</h3> */}
-            <img src={Finding} alt="" />
+              <img src={Finding} alt="" />
             </div>
             <p>
               Active Listeners is dedicated to enhancing well-being and personal
@@ -195,6 +192,9 @@ const Header = () => {
         </div>
 
         <div className="categoreis-haeder">
+          <div className="commen-image">
+            <img src={Coomen} alt="" />
+          </div>
           <div className="categoreis-grid-boxs">
             <NavLink to="/EarlyagegadgetExposure" className="Links">
               {" "}
