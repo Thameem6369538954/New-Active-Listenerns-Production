@@ -27,6 +27,9 @@ import axios from "../Utils/Baseurl.js";
 import { ToastContainer, toast } from "react-toastify";
 
 const EntertainmentandperformanceAddiction = () => {
+   const scrollToTop = () => {
+     window.scrollTo(0, 0);
+   };
   const [rows, setRows] = useState("");
   const [rows2, setRows2] = useState("");
   useEffect(() => {
@@ -285,7 +288,7 @@ const EntertainmentandperformanceAddiction = () => {
                     <h4>Are you Addicted to Mobile phone?</h4>
                     <Link to="/podcast">
                       {" "}
-                      <button>Watch Now</button>
+                      <button onClick={scrollToTop} >Watch Now</button>
                     </Link>
                   </div>
                 </div>

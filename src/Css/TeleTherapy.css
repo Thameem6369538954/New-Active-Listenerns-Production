@@ -304,6 +304,9 @@ li {
   }
 }
 @media (min-width: 600px) and (max-width: 1024px) {
+  .over-flow{
+    overflow: hidden;
+  }
   .top-baner h1 {
     font-family: Relo;
     font-weight: 900;

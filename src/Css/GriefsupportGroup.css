@@ -320,7 +320,8 @@ font-family: Blacky;
   background-color: #256c55;
   color: white;
   border: none;
-  padding: 10px 170px;
+  padding: 10px;
+  width: 80%;
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px ;
@@ -626,8 +627,7 @@ article {
     height: auto;
   }
   .gs-header img:nth-child(2) {
-    width: 40%;
-    /* background-color: red; */
+    width: 70%;
   }
   .gs-header-text p {
     font-family: myFont;
@@ -722,8 +722,8 @@ article {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin:10px;
-            margin-top: 60px;
+    flex-direction: column-reverse;
+    margin-top: 10px;
   }
   .benifit-main {
     display: grid;

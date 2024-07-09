@@ -14,7 +14,7 @@ import Breadcrumps from "../Components/Breadcrumps";
 
 const Podcast = () => {
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
 
       <Breadcrumps />

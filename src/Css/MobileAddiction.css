@@ -236,6 +236,13 @@ h4 {
   margin-right: 30px;
 }
 @media screen and (max-width: 600px) {
+  .close-calendly-addiction {
+    position: absolute;
+    font-size: 50px;
+    right: 93%;
+    color: red;
+    background-color: blue;
+}
 
   .mobile-addiction-main-container{
   overflow-xs: hidden;

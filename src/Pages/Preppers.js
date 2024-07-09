@@ -25,7 +25,7 @@ const Preppers = () => {
     window.scrollTo(0, 0);
   };
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       <div className="preppers-main">
@@ -36,11 +36,10 @@ const Preppers = () => {
           <p>One Platform, Multiple touchpoints</p>
           <h1>Preppers Offer Multiple</h1>
           <h2>Therapies</h2>
-          <span style={{fontFamily:"Poppins"}}>
-          Our sessions
-            are not just activities; they are gateways to improved mental
-            health,<br></br> heightened focus and a balanced lifestyle for the
-            children's, Parents & Carers..
+          <span style={{ fontFamily: "Poppins" }}>
+            Our sessions are not just activities; they are gateways to improved
+            mental health,<br></br> heightened focus and a balanced lifestyle
+            for the children's, Parents & Carers..
           </span>
         </div>
         <div className="preppers-yellow-box-container">

@@ -231,12 +231,12 @@
     margin-left: 20px;
 }
   .senestop-icon {
-    /* color: red; */
     font-size: 30px;
-    margin-left: 250px;
-    margin-top: 247px;
-    position: absolute;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: absolute;
 }
+
 .supoort-box{
   background-color: #ffdd7e;
   display: flex;

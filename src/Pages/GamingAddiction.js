@@ -26,6 +26,9 @@ import WHYAL from "../Videos/WHYAL.mp4";
 import axios from "../Utils/Baseurl";
 
 const GamingAddiction = () => {
+   const scrollToTop = () => {
+     window.scrollTo(0, 0);
+   };
         const [video, setVideo] = useState("");
                 const [video2, setVideo2] = useState("");
 
@@ -328,7 +331,7 @@ const GamingAddiction = () => {
                     <h4>Are you Addicted to Mobile phone?</h4>
                     <Link to="/podcast">
                       {" "}
-                      <button>Watch Now</button>
+                      <button onClick={scrollToTop}>Watch Now</button>
                     </Link>
                   </div>
                 </div>

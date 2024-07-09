@@ -269,7 +269,7 @@ const GriefsupportGroup = () => {
      };
 
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       {/* header */}

@@ -98,7 +98,7 @@ const TeamPage = () => {
 
 
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       {/* taempage-header */}
@@ -108,7 +108,6 @@ const TeamPage = () => {
           <h1>meet the Team Of</h1>
           <h2>Active Listening</h2>
           <div className="teampage-intro">
-            
             <span>
               Transformative support for those seeking clarity and understanding
               through active listening.
@@ -179,32 +178,31 @@ const TeamPage = () => {
           </div>
         </div>
         <div className="team-psychologist-box-conatiner-main">
-        <div className="team-psychologist-box-conatiner">
-          {psychologist.map((items) => (
-            <div>
-              <div className="team-psychologist-box" key={items.id}>
-                <img src={items.image} alt="" />
-                <div className="psychologist-box-inside">
-                  <span style={{ color: "#256C55" }}>Psychologist</span>
-                  <h1>{items.name}</h1>
-                  <p>{items.email}</p>
-                  <p>{items.mobile}</p>
-                  <hr></hr>
-                  <div className="follow-box">
-                    <p>Follow me :</p>
-                    <div className="follw-icons">
-                      <FaWhatsapp />
-                      <FaInstagram />
-                      <PiFacebookLogoBold />
-                      <FaXTwitter />
+          <div className="team-psychologist-box-conatiner">
+            {psychologist.map((items) => (
+              <div>
+                <div className="team-psychologist-box" key={items.id}>
+                  <img src={items.image} alt="" />
+                  <div className="psychologist-box-inside">
+                    <span style={{ color: "#256C55" }}>Psychologist</span>
+                    <h1>{items.name}</h1>
+                    <p>{items.email}</p>
+                    <p>{items.mobile}</p>
+                    <hr></hr>
+                    <div className="follow-box">
+                      <p>Follow me :</p>
+                      <div className="follw-icons">
+                        <FaWhatsapp />
+                        <FaInstagram />
+                        <PiFacebookLogoBold />
+                        <FaXTwitter />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-
+            ))}
+          </div>
         </div>
       </div>
       <div className="therapy-heading">
@@ -220,7 +218,7 @@ const TeamPage = () => {
         </div>
       </div>
 
-       {/* team-caro */}
+      {/* team-caro */}
       <div className="team-caro-display">
         <div className="goal-box-container-hole">
           <Slider {...settings}>

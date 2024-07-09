@@ -26,7 +26,9 @@ import Breadcrumps from "../Components/Breadcrumps";
 import WHYAL from "../Videos/WHYAL.mp4";
 import axios from "../Utils/Baseurl";
 const MobileAddiction = () => {
-  
+   const scrollToTop = () => {
+     window.scrollTo(0, 0);
+   };
     const [wantComplimentaryCall, setWantComplimentaryCall] = useState(false);
     const appointmentSubmit = (e) => {
       e.preventDefault();
@@ -298,7 +300,7 @@ const MobileAddiction = () => {
                   <h4>Are you Addicted to Mobile phone?</h4>
                   <Link to="/podcast">
                     {" "}
-                    <button>Watch Now</button>
+                    <button onClick={scrollToTop}>Watch Now</button>
                   </Link>
                 </div>
               </div>

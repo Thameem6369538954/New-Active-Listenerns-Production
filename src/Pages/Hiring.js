@@ -14,6 +14,10 @@ import Breadcrumps from "../Components/Breadcrumps";
 import axios from "../Utils/Baseurl.js";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import blogprev2 from "../Images/blogprev2.jpg";
+import blogprev4 from "../Images/blogprev4.jpg";
+import blogprev3 from "../Images/blogprev3.jpg";
+import blogprev5 from "../Images/blogprev5.jpg";
 
 
 const Hiring = () => {
@@ -41,7 +45,7 @@ const Hiring = () => {
      fetchData();
    }, []);
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       <div className="Hiring-main">
@@ -49,7 +53,6 @@ const Hiring = () => {
           <p>Our Goals</p>
           <h1>Join our Amazing</h1>
           <h2>Team</h2>
-          {/* <img src={Yellowline} className="Yellowline" alt="" /> */}
           <h4>
             Transformative support for those seeking clarity and understanding
             through active listening.
@@ -72,10 +75,7 @@ const Hiring = () => {
             <div className="inside-mobile-addiction-txt">
               <h1>Our Testimonial Video</h1>
               {rows && (
-                <video
-                  controls
-                  className="Header-video-top"
-                >
+                <video controls className="Header-video-top">
                   <source src={rows} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -96,7 +96,7 @@ const Hiring = () => {
             <p>Our team</p>
             <h1>Job Openings </h1>
             <h2>For you</h2>
-            <img src={Yellowline} className="Yellowline" alt="" />
+            
           </div>
           <div className="hiring-boxes">
             <div className="flip-card">
@@ -109,11 +109,7 @@ const Hiring = () => {
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris.
                   </p>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={Doc} alt="" />
                 </div>
                 <div className="flip-card-back">
                   <p className="title">Apply Now</p>
@@ -124,11 +120,7 @@ const Hiring = () => {
                   >
                     <button>Apply Now</button>
                   </NavLink>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={Doc} alt="" />
                 </div>
               </div>
             </div>
@@ -150,11 +142,7 @@ const Hiring = () => {
                     valued. Join us in creating and sharing stories that leave a
                     lasting impact on our audience.
                   </p>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev2} alt="" />
                 </div>
                 <div className="flip-card-back">
                   <p className="title">Apply Now</p>
@@ -165,11 +153,7 @@ const Hiring = () => {
                   >
                     <button>Apply Now</button>
                   </NavLink>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev2} alt="" />
                 </div>
               </div>
             </div>
@@ -190,11 +174,7 @@ const Hiring = () => {
                     Join us in showcasing our vision through your talent and
                     charisma,creating a lasting impact on our audience.
                   </p>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev3} alt="" />
                 </div>
                 <div className="flip-card-back">
                   <p className="title">Apply Now</p>
@@ -205,11 +185,7 @@ const Hiring = () => {
                   >
                     <button>Apply Now</button>
                   </NavLink>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev3} alt="" />
                 </div>
               </div>
             </div>
@@ -228,11 +204,7 @@ const Hiring = () => {
                     content. Join us in producing films that captivate,
                     entertain, and inspire ouraudience
                   </p>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev5} alt="" />
                 </div>
                 <div className="flip-card-back">
                   <p className="title">Apply Now</p>
@@ -243,11 +215,7 @@ const Hiring = () => {
                   >
                     <button>Apply Now</button>
                   </NavLink>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev5} alt="" />
                 </div>
               </div>
             </div>
@@ -266,11 +234,7 @@ const Hiring = () => {
                     be an equal opportunity employer. Ready to make learning fun
                     and easy? Apply now and let's explore potential together!{" "}
                   </p>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev4} alt="" />
                 </div>
                 <div className="flip-card-back">
                   <p className="title">Apply Now</p>
@@ -281,11 +245,7 @@ const Hiring = () => {
                   >
                     <button>Apply Now</button>
                   </NavLink>
-                  <img
-                    src={Doc}
-                    style={{ width: "40%", margin: "auto" }}
-                    alt=""
-                  />
+                  <img src={blogprev4} alt="" />
                 </div>
               </div>
             </div>
