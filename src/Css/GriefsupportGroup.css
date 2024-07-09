@@ -776,12 +776,12 @@ article {
   }
 .div-color-a{
   background-color: #BAE8AC;
-  width: 300px;
+  width: 40%;
   border-radius: 20px;
   min-height: 400px;
   display: flex;
     flex-direction: column;
-    place-items: left;
+    
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
@@ -790,11 +790,11 @@ article {
 .div-color-b{
   background-color: #FFE291
 ;
-  width: 300px;
+  width: 40%;
   min-height: 400px;
   display: flex;
     flex-direction: column;
-    place-items: left;
+    
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
@@ -806,11 +806,11 @@ article {
 .div-color-c{
   background-color: #FFD1E8
 ;
-  width: 300px;
+  width: 40%;
   min-height: 400px;
   display: flex;
     flex-direction: column;
-    place-items: left;
+    
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
@@ -821,11 +821,11 @@ article {
 }
 .div-color-d{
   background-color: #CBD9FF;
-  width: 300px;
+  width: 40%;
   min-height: 400px;
   display: flex;
     flex-direction: column;
-    place-items: left;
+    
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
