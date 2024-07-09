@@ -23,6 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .inside-mobile-addiction-txt {
   padding: 10px;
@@ -235,8 +236,9 @@ h4 {
   margin-right: 30px;
 }
 @media screen and (max-width: 600px) {
+
   .mobile-addiction-main-container{
-  overflow: hidden;
+  overflow-xs: hidden;
 }
 
   .header-container-mobile img {
@@ -263,10 +265,11 @@ h4 {
     position: absolute;
     z-index: 9999;
   }
-    .inside-mobile-addiction-txt h1 {
+      .inside-mobile-addiction-txt h1 {
         font-size: 19px;
-        width: 35%;
-                font-family: Relo;
+        font-family: Relo;
+        text-align: center;
+        padding: 5px 1em;
     }
   .observed-result-cate {
     display: flex;
@@ -282,7 +285,7 @@ h4 {
   .yellow-box-mobile-addiction {
     display: flex;
     flex-direction: column;
-    margin-left: 119px;
+    margin-right: 0px;
   }
   .mobile-addiction-box-green {
     background-color: #bce8ad;
@@ -302,6 +305,12 @@ h4 {
   }
   .inside-mobile-addiction-txt{
     width: 100%;
+    flex-direction: column;
+    gap:2rem;
+            
+  }
+  .mobile-addiction-yellow-box{
+    margin-left: 0px;
   }
 }
 

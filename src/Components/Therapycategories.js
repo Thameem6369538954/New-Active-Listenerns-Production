@@ -62,13 +62,7 @@ const Therapycategories = () => {
         <div className="therapy-cate">
           <div className="bulb">
             {/* <img src={Bulb} alt="" /> */}
-
-            <div className="therapy-heading">
-              <div className="therapy-heading-inside">
                 <img src={Howwe} alt="" />
-              </div>
-              {/* <img src={EllipseRed} alt="" /> */}
-            </div>
           </div>
 
           <div className="theropy-box-main">

@@ -156,6 +156,7 @@
     justify-content: space-around;
     margin: auto;
     padding: 10px;
+    grid-area: 1rem;
   }
   .therapy-box {
     background-color: #ffdd7e;
@@ -169,7 +170,6 @@
     align-items: center;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-left: -6%;
     gap: 0rem;
   }
   .bulb img:nth-child(1) {

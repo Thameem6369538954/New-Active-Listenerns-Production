@@ -44,3 +44,9 @@
   scrollbar-color: #BAE8AC #f1f1f1; /* Thumb and track color */
   scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
+}

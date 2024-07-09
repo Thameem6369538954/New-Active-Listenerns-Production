@@ -49,7 +49,7 @@ const Senses = () => {
   };
 
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <div className="secnses-main-con">
         <Breadcrumps />

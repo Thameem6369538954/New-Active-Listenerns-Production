@@ -240,7 +240,7 @@ nav img:nth-child(3){
   .nav-icon {
     display: block;
     font-size: 40px;
-    margin: 40px;
+    margin: 10px;
   }
   .nav-links {
    display: flex;

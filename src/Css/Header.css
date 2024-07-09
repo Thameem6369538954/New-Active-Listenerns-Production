@@ -247,6 +247,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .hdr-btm-text {
   display: flex;
@@ -473,6 +474,7 @@
   .Header-video-top {
     width: 80%;
     border-radius: 20px;
+    margin: 10px;
   }
   .e-green-box{
     width: 85%;
@@ -488,7 +490,7 @@
     margin: 10px;
   }
   .header-container img {
-    width: 35%;
+    width: 80%;
   }
   .hdr-btm-text {
     display: flex;

@@ -27,7 +27,7 @@ const OneOnOne = () => {
     // setCloseClick(true);
   };
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       <div className="oneonone-main">

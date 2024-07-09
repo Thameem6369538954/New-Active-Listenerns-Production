@@ -279,9 +279,9 @@
     }
 @media screen and (max-width: 600px) {
   .early-age-video {
-    width: 50%;
+    width: 75%;
     border-radius: 20px;
-    margin-left: -60px;
+    margin: autoa;
 }
     .MobileAddiction-yt-video {
   /* margin-top: 10%; */
@@ -319,7 +319,7 @@
   }
   .getyoukow-container {
     background-color: #ffdd7e;
-    width: 65%;
+    width: 90%;
     height: 362px;
     border-radius: 20px;
     display: flex;

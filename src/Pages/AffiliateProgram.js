@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 
 const AffiliateProgram = () => {
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       <div className="affiliate-program-main">

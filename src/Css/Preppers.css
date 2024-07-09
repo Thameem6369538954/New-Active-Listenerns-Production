@@ -148,6 +148,9 @@
   {
     font-size: 20px;
   }
+  .preppers-box {
+    width: 300px;
+}
   .preppers-header-image img {
     width: 80%;
 }

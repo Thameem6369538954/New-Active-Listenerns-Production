@@ -144,7 +144,7 @@ const Speak_easy = () => {
   };
 
   return (
-    <div>
+    <div className="over-flow">
       <Navbar />
       <Breadcrumps />
       <div className="teletheropy">

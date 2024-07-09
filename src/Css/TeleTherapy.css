@@ -200,6 +200,9 @@ li {
   border-radius: 20px;
 }
 @media screen and (max-width: 600px) {
+  .over-flow{
+    overflow: hidden;
+  }
   .top-baner img:nth-child(3) {
     width: 65px;
     background-color: yellow;
