@@ -79,7 +79,7 @@ const Speekeasy = () => {
           <p>Therapy for you!</p>
           <h1>Speak-Easy Therapy</h1>
           <h2>Session</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
+          {/* <img src={Yellowline} className="Yellowline" alt="" /> */}
         </div>
         <img
           src={Speak}

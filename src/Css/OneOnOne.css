@@ -54,3 +54,19 @@ width: 23%;
 .container-speek-a img {
   width: 100%;
 }
+@media screen and (max-width:600px) {
+  .therapy-heading-oneonone-inner h1 {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 26px;
+    /* margin: -9px; */
+    text-align: center;
+}
+.therapy-heading-oneonone-inner p {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 29px;
+    /* margin: -9px; */
+    text-align: center;
+}
+}

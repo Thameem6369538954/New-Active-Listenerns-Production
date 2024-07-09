@@ -771,7 +771,9 @@ article {
 }
 }
 @media (min-width: 600px) and (max-width: 1024px) {
-  
+  .color-box-main-container{
+    gap: 2rem;
+  }
 .div-color-a{
   background-color: #BAE8AC;
   width: 300px;

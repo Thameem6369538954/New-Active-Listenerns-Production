@@ -26,9 +26,9 @@ const Hiring = () => {
           <p>Our Goals</p>
           <h1>Join our Amazing</h1>
           <h2>Team</h2>
-          <img src={Yellowline} className="Yellowline" alt="" />
+          {/* <img src={Yellowline} className="Yellowline" alt="" /> */}
           <h4>
-            <img src={Downarrow} className="down-arrow" alt="" /> Transformative
+           Transformative
             support for those seeking clarity and understanding through active
             listening.
           </h4>
