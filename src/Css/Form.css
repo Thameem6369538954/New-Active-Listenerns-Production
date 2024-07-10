@@ -46,6 +46,10 @@
     margin: auto;
 }
 @media screen and (max-width:600px) {
+    .input-field input {
+    padding: 10px;
+    width: 98%;
+}
     .input-field{
     display: grid;
     place-items: center;
@@ -55,16 +59,18 @@
     padding: 10px 60px;
     border-radius: 5px;
     width: 100%;
-    /* margin-left: 138px; */
+    margin-left: 0px;
+}
+.psyco-form {
+    width: 90%;
+ 
 }
 .form-affilate {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(1, 1fr);
-
     width: 100%;
-    margin: 10px;
-    height: 500px;
+    height: 100%;
     border-radius: 20px;
 }
 .psyco-form{

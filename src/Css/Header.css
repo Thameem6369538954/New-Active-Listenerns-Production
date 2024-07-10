@@ -429,6 +429,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .commen-image{
+    height: 25vh;
+  }
       .header-main img {
         width: 92%;
        

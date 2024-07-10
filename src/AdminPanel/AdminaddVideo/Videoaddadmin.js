@@ -396,9 +396,9 @@ const Videoaddadmin = () => {
                     <td>{row.page}</td>
                     <td>
                       <div className="action-buttons">
-                        <button onClick={() => handleDeleteClick(row._id)}>
+                        {/* <button onClick={() => handleDeleteClick(row._id)}>
                           Delete <CgCloseO className="video-delete-new" />
-                        </button>
+                        </button> */}
                         <button onClick={() => togglePopupEditnewone(row._id)}>
                           Edit <AiOutlineEdit className="video-edit" />
                         </button>

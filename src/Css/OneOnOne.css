@@ -69,4 +69,18 @@ width: 23%;
     /* margin: -9px; */
     text-align: center;
 }
+.therapy-heading-oneonone-inner h1 {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 27px;
+    /* margin: -9px; */
+}
+}
+@media screen and (min-width:600px) and (max-width: 1024px) {
+  .therapy-heading-oneonone-inner h1 {
+    font-family: Relo;
+    font-weight: 900;
+    font-size: 27px;
+    /* margin: -9px; */
+}
 }

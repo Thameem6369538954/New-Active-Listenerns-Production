@@ -67,7 +67,7 @@ const Speekeasy = () => {
 
   return (
     <div>
-      <div className="therapy-heading">
+      <div className="speakeasy-therapy-heading">
         <img
           src={Easy}
           alt=""

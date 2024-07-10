@@ -309,6 +309,7 @@ width: 260px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: -10%;
 }
 .enage-box img {
     width: 230px;
@@ -333,7 +334,7 @@ width: 260px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
-        margin-left: -12%;
+        margin-left: 0px;
     }
     .psycologist-imsha{
       margin-left: 35px;

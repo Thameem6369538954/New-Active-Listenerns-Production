@@ -28,6 +28,7 @@ const Header = () => {
     return () => clearInterval(interval);
   }, []);
   const [rows, setRows] = useState('');
+  const [rowsThumb,setRowsThumb] = useState('')
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -37,6 +38,7 @@ const Header = () => {
           // const videoData = response.data.reslt[1]; // Retrieve the video data
           // Now you can use videoData to set the state or display the video
           setRows(response.data.reslt[0].source);
+          setRowsThumb(response.data.reslt[0].thumbnail);
           // setVid2;(response.data.reslt[1].source)
         } else {
           toast.error("something went wrong!!");
@@ -184,6 +186,7 @@ const Header = () => {
               controls
               className="Header-video-top"
               onClick={handlePlayClick}
+              poster={rowsThumb}
             >
               <source src={rows} type="video/mp4" />
               Your browser does not support the video tag.

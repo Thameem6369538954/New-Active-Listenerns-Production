@@ -42,6 +42,9 @@
   .hiring-form-main{
     height: auto;
   }
+  .green-information p{
+    
+  }
 @media screen and (max-width: 600px) {
   .hiring-form-holeconatiner {
     display: flex;
