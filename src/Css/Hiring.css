@@ -4,6 +4,16 @@
     margin-left: -29%;
     margin-top: 13%;
 }
+.brn{
+  position: relative;
+  /* display: grid;
+  place-items: center; */
+}
+.brn img {
+  position: absolute;
+  width: 20%;
+  left: 70%;
+}
 .hiring-boxes {
   display: flex;
   align-items: center;

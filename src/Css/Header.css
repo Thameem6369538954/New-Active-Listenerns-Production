@@ -19,9 +19,16 @@
   z-index: -9999;
 }
 .commen-image{
-  display: grid;
-  place-items: center;
-  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 80vh;
+}
+.commen-video {
+    width: 35%;
+    border-radius: 20px;
+    /* height: 243px; */
 }
 .commen-image img{
   width: 40%;
@@ -379,6 +386,9 @@
 }
 .imsha {
   margin-top: 7%;
+}
+.header-container img{
+  width: 30%;
 }
 
 /* .hdr-btm-text img:nth-child(1){
@@ -748,8 +758,11 @@
     border-radius: 20px;
     box-shadow: 18px 17px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
+.benefit-box-grid{
+  flex-wrap: wrap ;
+}
 .header-container img {
-  width: 60%;
+  width: 30%;
   margin-top: 0%;
 }
 .hdr-text-landing {

@@ -32,8 +32,8 @@ useEffect(() => {
   const fetchData = async () => {
     try {
       const response = await axios.get("admin/get_allVideos");
-      console.log(response.data.reslt, "array----------------------->>obj");
-      console.log(response.data.reslt[2], "array----------------------->>obj"); // Log the second object in the response
+      console.log(response.data.reslt, "array----------------------->>objFull");
+      console.log(response.data.reslt[3], "array----------------------->>obj"); // Log the second object in the response
       if (response) {
         // const videoData = response.data.reslt[1]; // Retrieve the video data
         // Now you can use videoData to set the state or display the video
@@ -170,14 +170,14 @@ useEffect(() => {
           </div>
 
           <div className="e-green-box-container">
-            {rows && (
+            {rows2 && (
               <video
                 controls // Ensure controls are enabled for user interaction
                 className="erly-age-video"
                 // onPlay={() => setIsPlaying(true)}
                 // onPause={() => setIsPlaying(false)}
               >
-                <source src={rows} type="video/mp4" />
+                <source src={rows2} type="video/mp4" />
                 {/* Make sure src and type are correctly set */}
                 Your browser does not support the video tag.
               </video>

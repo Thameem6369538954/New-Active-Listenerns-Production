@@ -18,7 +18,7 @@ import blogprev2 from "../Images/blogprev2.jpg";
 import blogprev4 from "../Images/blogprev4.jpg";
 import blogprev3 from "../Images/blogprev3.jpg";
 import blogprev5 from "../Images/blogprev5.jpg";
-
+import HiringImg from "../Images/HiringImg.png";
 
 const Hiring = () => {
   const scrollToTop = () => {
@@ -49,6 +49,10 @@ const Hiring = () => {
       <Navbar />
       <Breadcrumps />
       <div className="Hiring-main">
+        <div className="brn">
+        <img src={HiringImg} alt="" />
+
+        </div>
         <div className="therapy-heading">
           <p>Our Goals</p>
           <h1>Join our Amazing</h1>
@@ -96,7 +100,6 @@ const Hiring = () => {
             <p>Our team</p>
             <h1>Job Openings </h1>
             <h2>For you</h2>
-            
           </div>
           <div className="hiring-boxes">
             <div className="flip-card">

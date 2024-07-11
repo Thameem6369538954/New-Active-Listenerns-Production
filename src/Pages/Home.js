@@ -20,7 +20,7 @@ const Home = () => {
       <Header />
       <Categories />
       <Therapycategories />
-      <UpcomingUbdates />
+      {/* <UpcomingUbdates /> */}
       <Subscribe />
       {/* <Speekeasy /> */}
       <GetinTouch />

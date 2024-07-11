@@ -49,6 +49,33 @@ const Header = () => {
     };
     fetchData();
   }, []);
+
+    const [commen,setCommen] = useState('');
+    console.log(commen,"commennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn");
+
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("admin/get_allVideos");
+        console.log(response.data.reslt, "arrayobjjjjjjjjjjjjjjjj"); // Log the second object in the response
+        if (response) {
+          // const videoData = response.data.reslt[1]; // Retrieve the video data
+          // Now you can use videoData to set the state or display the video
+          setCommen(response.data.reslt[1].source);
+          setRowsThumb(response.data.reslt[1].thumbnail);
+          // setVid2;(response.data.reslt[1].source)
+        } else {
+          toast.error("something went wrong!!");
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchData();
+
+},);
+
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -186,7 +213,7 @@ const Header = () => {
               controls
               className="Header-video-top"
               onClick={handlePlayClick}
-              poster={rowsThumb}
+              // poster={rowsThumb}
             >
               <source src={rows} type="video/mp4" />
               Your browser does not support the video tag.
@@ -197,6 +224,19 @@ const Header = () => {
         <div className="categoreis-haeder">
           <div className="commen-image">
             <img src={Coomen} alt="" />
+            
+              {commen && (
+                <video
+                  controls
+                  className="commen-video"
+                  onClick={handlePlayClick}
+                  poster={rowsThumb}
+                >
+                  <source src={rows} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              )}
+            
           </div>
           <div className="categoreis-grid-boxs">
             <NavLink to="/EarlyagegadgetExposure" className="Links">
